@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.start-page-carusel {
+	width: 100%;
+	/*height: 1000px;*/
+	position: relative;
+	z-index: 0;
+	left: 0;
+	top: 0;	
+}
+.start-page-carusel .item {
+	width: 100%;
+    background-size: cover !important;
+    background-position: top center; 
+	display: block;
+}
+.owl-dots {
+	display: none;
+}
+.owl-dot {
+	width: 14px;
+	height: 14px;
+	border-radius: 7px;
+	background: #fff !important;
+	margin: 0 3.5px;
+}
+.owl-dot.active, .owl-dot:hover {
+	background: #ffae00 !important;
+}
+.start-page-carusel .owl-next {
+	position: absolute;
+	right: -70px;
+	top: calc( 50% - 70px );
+	width: 140px;
+	height: 140px;
+	border-radius: 100%;
+	outline: none;
+	background: #fff !important;
+	background-position: -0px -0px !important;
+}
+.start-page-carusel .owl-next:hover {
+	background-position: -0px -21px !important;
+}
+.start-page-carusel .owl-prev {
+	position: absolute;
+	left: -70px;
+	top: calc( 50% - 70px );
+	width: 140px;
+	height: 140px;
+	outline: none;
+	border-radius: 100%;
+	background: #fff !important;
+	background-position: -0px -0px !important;
+}
+.owl-prev span {
+	position: relative;
+	display: block;
+	color: red;
+	font-size: 4em;
+	margin-left: 30px;
+	top: -5px;
+}
+.owl-prev span:after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 40px;
+	height: 4px;
+	background: red;
+	left: 50px;
+	top: 49px;
+}
+.owl-next span {
+	position: relative;
+	display: block;
+	color: red;
+	font-size: 4em;
+	margin-right: 30px;
+	top: -5px;
+}
+.owl-next span:before {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 40px;
+	height: 4px;
+	background: red;
+	right: 50px;
+	top: 49px;
+}
+.slider-img {
+    max-width: 100%;
+    top: 0;
+    right: 0;
+    height: 100vh;
+	background: url('./img/car.png') no-repeat center center / cover;
+}
+.slider-img2{
+	position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+	height: 100vh;
+	background: url(./img/backBig.jpg) no-repeat center center / cover;
+}
+#first-section {
+    position: relative;
+    overflow: hidden;
+}
